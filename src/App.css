@@ -1,0 +1,44 @@
+/* I dont like css */
+.App {
+  text-align: center;
+}
+
+/* this is where our tasks are, adds space inbetween them, border etc etc*/
+.task-container {
+  margin: auto;
+  background-color: royalblue;
+  width: 50%;
+  border: 3px solid black;
+  margin-bottom: 10px;
+}
+
+/* these buttons are on the actual tasks */
+.common-button {
+  width: 40%;
+  min-height: 55px;
+  margin: 5px;
+  border: 2px solid black;
+  font-weight: bold;
+  background-color: black;
+  color: white;
+  vertical-align: center;
+}
+
+.common-button:hover {
+  background-color: red;
+}
+/* these buttons are apart of the menu (add, hide save etc etc) */
+.menu-button {
+  background-color: black;
+  color: white;
+  width: 20%;
+  min-height: 30;
+  margin-bottom: 10px;
+}
+.pic {
+  width: 5%;
+  height: 5%;
+}
+.menu-button:hover {
+  background-color: red;
+}
